@@ -1,0 +1,110 @@
+@media screen and (min-width: 992px) {
+	.nav-show {
+		display: block;
+	}
+	.control-font {
+		font-size:3em;
+	}
+}
+@media screen and (max-width: 992px) {
+	.nav-show {
+		display: none;
+	}
+	.control-font {
+		font-size:2em;
+	}
+}
+.thumbnailColor {
+	background-color: #F3F3F3;
+}
+body {
+	background-color: #fff;
+}
+.search-area {
+	margin-right:-30px;
+}
+.centerpagination {
+	text-align: center;
+}
+a:link,a:visited,a:hover,a:active {
+	text-decoration: none;	
+}
+.caption-lg {
+	height: 68px;
+	width: 100%;
+	padding: 9px;
+}
+.mycarousel {
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	border-radius: 10px;
+}
+.mycarousel:after {
+	content:"";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.mycarousel ul li{
+	display: inline-block;
+	float: left;
+}
+.mycarousel-indicators {
+	position: absolute;
+	bottom:5%;
+	right:5%;
+	z-index: 2;
+}
+.mycarousel-indicators li{
+	width:20px;
+	height: 20px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+.indicatorOriginColor {
+	background: #DADADA;
+}
+.indicatorColor {
+	background: red;
+}
+.indicators-active {
+	background: #C70303;
+}
+.mycarousel-img {
+	position: relative;
+	padding: 0;
+	z-index: 1;
+}
+.mycarousel-img li{
+	position: relative;
+}
+.mycarousel-caption {
+	position: absolute;
+	bottom:2%;
+	left:2%;
+	color:white;
+}
+.left-control {
+	left:5%;
+}
+.right-control {
+	right:5%;
+}
+.control-icon {
+	cursor: pointer;
+	position: absolute;
+	top:50%;
+	z-index: 3;
+	color:white;
+	background:rgba(0, 0, 0, 0.3);
+	line-height: 0.9;
+	display: none;
+}
+.mycarousel:hover .control-icon{
+	display: block;
+}
+.control-icon:hover{
+	background: rgba(0, 0, 0, 0.5)
+}
